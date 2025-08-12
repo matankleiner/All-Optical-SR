@@ -1,6 +1,6 @@
-# All Optical Super Resolution code
+# All Optical Super Resolution
 
-### Code for "Can the Success of Digital Super-Resolution Networks Be Transferred to Passive All-Optical Systems?" 
+### Official Pytorch implementation of the paper: "Can the Success of Digital Super-Resolution Networks Be Transferred to Passive All-Optical Systems?" 
 
 ## System Requirements 
 
@@ -38,9 +38,12 @@ After installation one can run our code.
 
 ### Data
 
-We used the MNIST, FashionMNIST and Quick, Drae! datasets in our work. The MNIST and FashionMNIST datasets are available via `torchvision`, Quick, Draw! is avilable via their official [github](https://github.com/googlecreativelab/quickdraw-dataset). 
+The data used in our work is the MNIST, FashionMNIST, Quick, Drae!, KMNIST and EMNIST datasets. 
 
-We also used the KMNIST and EMNIST datasets for evaluation. The KMNIST dataset is available via `torchvision`. The EMNIST dataset is available via their [official website](https://www.nist.gov/itl/products-and-services/emnist-dataset). For both datasets we used the drop-in replacemnt for the MNIST dataset. 
+The MNIST, FashionMNIST and KMNIST datasets are available via `torchvision`. Quick, Draw! is avilable via their official [github](https://github.com/googlecreativelab/quickdraw-dataset). 
+EMNIST dataset is available via their [official website](https://www.nist.gov/itl/products-and-services/emnist-dataset). 
+
+For both the KMNIST and EMNIST datasets we used the drop-in replacemnt for the MNIST dataset. 
 
 ### Hyperparameters
 
@@ -56,3 +59,10 @@ python3 main_trials.py --epochs 1000 --lr 1e-1 --trial_name unique_trial_name
 ## Licence 
 
 Our code is under the MIT License. 
+
+### Citation 
+
+If you use this code for your research, please cite our paper:
+
+```
+```
