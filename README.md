@@ -1,6 +1,6 @@
 # All Optical Super Resolution
 
-### Official Pytorch implementation of the paper: "Can the Success of Digital Super-Resolution Networks Be Transferred to Passive All-Optical Systems?" 
+### Official pytorch implementation of the paper: "Can the Success of Digital Super-Resolution Networks Be Transferred to Passive All-Optical Systems?" 
 
 ## System Requirements 
 
