@@ -65,12 +65,14 @@ Our code is under the MIT License.
 If you use this code for your research, please cite our paper:
 
 ```
-@article{kleiner2025sr,
-    title = {Can the success of digital super-resolution networks be transferred to passive all-optical systems?},
-    author = {Matan Kleiner and Lior Michaeli and Tomer Michaeli},
-    journal = {Nanophotonics},
-    doi = {doi:10.1515/nanoph-2025-0294},
-    year = {2025},
-    lastchecked = {2025-09-10}
+@article{kleiner2025can,
+  title={Can the success of digital super-resolution networks be transferred to passive all-optical systems?},
+  author={Kleiner, Matan and Michaeli, Lior and Michaeli, Tomer},
+  journal={Nanophotonics},
+  volume={14},
+  number={19},
+  pages={3181--3190},
+  year={2025},
+  publisher={De Gruyter}
 }
 ```
