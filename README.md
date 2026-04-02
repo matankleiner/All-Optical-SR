@@ -1,9 +1,8 @@
-# All Optical Super Resolution
+# All Optical Super Resolution and Uncertainty Visualization
 
-### Official pytorch implementation of the paper: "Can the Success of Digital Super-Resolution Networks Be Transferred to Passive All-Optical Systems?" 
-
-[Paper](https://www.degruyterbrill.com/document/doi/10.1515/nanoph-2025-0294/html)
-
+### Official pytorch implementation of the papers: 
+### • "Can the Success of Digital Super-Resolution Networks Be Transferred to Passive All-Optical Systems?" [[Paper]](https://www.degruyterbrill.com/document/doi/10.1515/nanoph-2025-0294/html)
+### • "All-optical uncertainty visualization for ill-posed image restoration tasks" [[Paper]](https://opg.optica.org/viewmedia.cfm?r=1&rwjcode=ol&uri=ol-51-8-2012)
 
 ## System Requirements 
 
@@ -35,7 +34,7 @@ pip install -r requirements.txt
 ```
 Installation time should take around 10 minutes. 
 
-## Usage Instructions  
+## Usage Instructions 
 
 After installation one can run our code. 
 
@@ -52,10 +51,16 @@ For both the KMNIST and EMNIST datasets we used the drop-in replacemnt for the M
 
 `config.py` include all the hyperparameters used for each trial. The different hyperparameters used for running different experiemnts are detailed in the paper. 
 
-### Usage
+### Usage for All-Optical Super-Resolution
 
 ```
-python3 main_trials.py --epochs 1000 --lr 1e-1 --trial_name unique_trial_name
+python3 main_trials.py --epochs 1000 --lr 1e-1 --trial_name unique_sr_trial_name
+
+```
+### Usage for Uncertainty Visualization
+
+```
+python3 Uncertainty-Visualization/main_trials.py --epochs 1000 --epcoh_initialize 500 --lr 1e-1 --trial_name unique_uncertainty_visualization_trial_name
 
 ```
 
@@ -77,5 +82,19 @@ If you use this code for your research, please cite our paper:
   pages={3181--3190},
   year={2025},
   publisher={De Gruyter}
+}
+```
+
+```
+@article{kleiner2026all,
+  author = {Kleiner, Matan and Michaeli, Tomer},
+  journal = {Opt. Lett.},
+  number = {8},
+  pages = {2012--2015},
+  publisher = {Optica Publishing Group},
+  title = {All-optical uncertainty visualization for ill-posed image restoration tasks},
+  volume = {51},
+  month = {Apr},
+  year = {2026},
 }
 ```
