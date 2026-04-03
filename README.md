@@ -64,6 +64,8 @@ python3 Uncertainty-Visualization/main_trials.py --epochs 1000 --epcoh_initializ
 
 ```
 
+For additional details see the [README file](https://github.com/matankleiner/All-Optical-SR/blob/main/Uncertainty-Visualization/README.md) in the sub direcorty. 
+
 ## Licence 
 
 Our code is under the MIT License. 
