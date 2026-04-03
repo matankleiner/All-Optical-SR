@@ -20,10 +20,10 @@ def get_args():
     parser.add_argument('--num_layers', help='number of enocder blocks', default=10, type=int)
     parser.add_argument('--training_criterion', help='training criterion to use', default='l1', type=str)
     parser.add_argument('--deg', help='[lr, r_mask_fs]', default='lr', type=str)
-    parser.add_argument('--random_mask_size', help='mask size', default=80, type=int)
+    parser.add_argument('--random_mask_size', help='mask size', default=75, type=int)
     parser.add_argument('--out_dist', help='distance between optical system output and output plane, in meter', default=1e-2, type=float)
     parser.add_argument('--wavelength', help='wavelength to use', default=550e-09, type=float)    
-    parser.add_argument('--radius', help='exit pupil radius', default=180, type=int)    
+    parser.add_argument('--radius', help='exit pupil radius', default=140, type=int)    
     # activation function 
     parser.add_argument('--nonlinear_weight', help='', default=1., type=float)
     
