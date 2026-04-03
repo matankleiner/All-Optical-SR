@@ -22,7 +22,7 @@ This degradation process is implemented by `RandomSquareMasknFS` function in `ut
 
 The warm-up phase (see the [maunscript](https://opg.optica.org/viewmedia.cfm?r=1&rwjcode=ol&uri=ol-51-8-2012&html=true) and Suppelmantry Note 2 for detials) is controlled by `--epcoh_initialize` flag in `config.py`. 
 
-#### Related work
+## Related work
 
 Hierarchical Uncertainty Exploration via Feedforward Posterior Trees, NeurIPS 2024. [[Project page]](https://eliasnehme.github.io/PosteriorTrees/) [[Paper]](https://neurips.cc/virtual/2024/poster/94955)
 
